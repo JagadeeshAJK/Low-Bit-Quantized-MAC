@@ -73,7 +73,7 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 - **Max Product Value**: 
   15 * 15 = 225
 - **Quantized Values**: 
-  - **A**: `1101100100000011` (Quantized value = **13**)
+  - **A**: `$${\color{red}1101}$$100100000011` (Quantized value = **13**)
   - **B**: `0101110000110011` (Quantized value = **5**)
 - **Product**: 
   13 * 5 = 65
