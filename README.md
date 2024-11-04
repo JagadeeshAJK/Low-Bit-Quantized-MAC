@@ -82,6 +82,15 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 
 
 **`1001`**1111
+# Low Bit Quantized MAC
+
+## Example of Highlighting Specific Bits
+For the binary number `10011111`, the sequence can be highlighted as follows:
+
+- **Highlighted in Red**: <span style="color: red; font-weight: bold;">1001</span>1111
+- **Highlighted in Blue**: <span style="color: blue; font-weight: bold;">1001</span>1111
+- **Highlighted in Green**: <span style="color: green; font-weight: bold;">1001</span>1111
+- **Highlighted with Yellow Background**: <span style="background-color: yellow; font-weight: bold;">1001</span>1111
 
 
 In the context of the 4-bit quantized data:
