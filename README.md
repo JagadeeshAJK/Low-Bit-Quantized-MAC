@@ -17,17 +17,17 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 - **Logic Gates**
   - **XOR Gate**: 
     - Description: Performs exclusive OR operation.
-    - Schematic: ![XOR Gate Schematic](path/to/xor_gate_schematic.png)
+  
   - **AND Gate**: Description...
   - **OR Gate**: Description...
-
+  - Schematic: ![XOR Gate Schematic](path/to/xor_gate_schematic.png)
 - **Arithmetic Components**
   - **Adder**: 
     - Description: Adds two binary numbers.
-    - Schematic: ![Adder Schematic](path/to/adder_schematic.png)
+    
   - **Multiplier**: Description...
 
-
+- Schematic: ![Adder Schematic](path/to/adder_schematic.png)
 
 
 # Mapping of Quantization Levels
