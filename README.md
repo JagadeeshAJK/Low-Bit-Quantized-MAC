@@ -13,20 +13,15 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 # circuit diagram for Low-Bit-Quantized-MAC
  ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/project.png)
 
-### Components Used
+### Building Blocks of the Circuit 
 - **Logic Gates**
-  - **XOR Gate**: 
-    - Description: Performs exclusive OR operation.
-  
-  - **AND Gate**: Description...
-  - **OR Gate**: Description...
-  - Schematic: ![XOR Gate Schematic](path/to/xor_gate_schematic.png)
+  - **XOR Gate**:
+  - **AND Gate**:
+  - **OR Gate**:
+- Schematic: ![XOR Gate Schematic](path/to/xor_gate_schematic.png)
 - **Arithmetic Components**
   - **Adder**: 
-    - Description: Adds two binary numbers.
-    
   - **Multiplier**: Description...
-
 - Schematic: ![Adder Schematic](path/to/adder_schematic.png)
 
 
