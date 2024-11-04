@@ -51,6 +51,7 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 
 
 ## Overview
+$${\color{red}Red]$$
 <span style="color: red; font-weight: bold;">1001</span>1111
 
 This project focuses on the design and analysis of a low-bit quantized Multiply-Accumulate (MAC) circuit. It explores the impact of quantization on data representation and performance, comparing both 16-bit and 4-bit data.
