@@ -24,11 +24,11 @@
 | 61440-65535    | 15              |
 
 
-For 16 bit data max product value is 665535*65535=4.3x10^9
-For 4 bit data max product value is 15*15=225
+For 16 bit data max product value is 665535*65535=4.3x10^9<br>
+For 4 bit data max product value is 15*15=225<br>
 
-If data is A=55555 and B=23603 the product is 1311264665
-A*B value of 16 bit data is 30.4% =30% of the max of 16 bit product 
+If data is A=55555 and B=23603 the product is 1311264665<br>
+A*B value of 16 bit data is 30.4% =30% of the max of 16 bit product <br>
 
 The Quantized value for A   1101100100000011 is 13
 The Quantized value for B   0101110000110011 is 5
