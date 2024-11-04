@@ -62,9 +62,9 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 - **Max Product Value**: 
   65535 * 65535 = 4.3 x 10^9
 - **Example Values**: 
-  - **A** = 55555
-  - **B** = 23603
-- **Product**: 
+  - **A** = 55555 -  `1101_1001_0000_0011`
+  - **B** = 23603 -  `0101_1100_0011_0011`
+- **Product**:      
   A * B = 1311264665
 - **Percentage of Max**: 
   (1311264665 / (4.3 x 10^9)) ≈ 30.4% (approximately 30%)
@@ -73,8 +73,8 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 - **Max Product Value**: 
   15 * 15 = 225
 - **Quantized Values**: 
-  - **A**:  $${\color{red}1101}$$ 100100000011 (Quantized value = **13**)
-  - **B**: `0101110000110011` (Quantized value = **5**)
+  - **A**:  $${\color{red}1101}$$ 1001_0000_0011 (Quantized value = **13**)
+  - **B**: $${\color{red}0101}$$ 1100_0011_0011 (Quantized value = **5**)
 - **Product**: 
   13 * 5 = 65
 - **Percentage of Max**: 
