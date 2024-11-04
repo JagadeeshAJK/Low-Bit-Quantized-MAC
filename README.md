@@ -19,7 +19,7 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 
 
 
-
+# Mapping of Quantization Levels
 | Original Range | Quantized Value |
 |----------------|-----------------|
 | 0-4095         | 0               |
