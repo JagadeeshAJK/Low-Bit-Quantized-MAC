@@ -4,7 +4,7 @@
   <img width="800" height="500" src="low-bit quantised MAC.pdf">
 </p>
 
-[ View ](low-bit quantised MAC.pdf)
+[ View ](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/low-bit%20quantised%20MAC.pdf)
 
 
 | Original Range | Quantized Value |
