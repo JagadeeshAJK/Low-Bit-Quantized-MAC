@@ -1,5 +1,9 @@
 # Low-Bit-Quantized-MAC
 
+
+[ View ](low-bit quantised MAC.pdf)
+
+
 | Original Range | Quantized Value |
 |----------------|-----------------|
 | 0-4095         | 0               |
