@@ -1,5 +1,8 @@
 # Low-Bit-Quantized-MAC
 
+ <p align="center">
+  <img width="800" height="500" src="low-bit quantised MAC.pdf">
+</p>
 
 [ View ](low-bit quantised MAC.pdf)
 
