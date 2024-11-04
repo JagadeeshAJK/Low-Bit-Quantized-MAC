@@ -2,9 +2,8 @@
 
 [ View ](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/low-bit%20quantised%20MAC.pdf)
 # circuit diagram for Low-Bit-Quantized-MAC
- <p align="center">
-  <img width="800" height="500" src="https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/project.png">
-</p>
+ ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/project.png)
+
 
 | Original Range | Quantized Value |
 |----------------|-----------------|
