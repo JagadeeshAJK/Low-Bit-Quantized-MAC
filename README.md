@@ -59,14 +59,11 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 ### For 16-Bit Data:
 - **Max Product Value**: 
   - 65535 * 65535 = 4.3 x 10^9
-
 - **Example Values**:
   - **A**: 55555 (Binary: `1101_1001_0000_0011`)
   - **B**: 23603 (Binary: `0101_1100_0011_0011`)
-
 - **Product**:
   - A * B = 55555 * 23603 = 1311264665
-
 - **Percentage of Max**:
   - (1311264665 / (4.3 x 10^9)) ≈ 30.4% (approximately 30%)
 
