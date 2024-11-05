@@ -58,30 +58,31 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 
 ### For 16-Bit Data:
 - **Max Product Value**: 
-  65535 * 65535 = 4.3 x 10^9
-- **Example Values**: 
-  - **A** = 55555 -  `1101_1001_0000_0011`
-  - **B** = 23603 -  `0101_1100_0011_0011`
-- **Product**:      
-  A * B = 1311264665
-- **Percentage of Max**: 
-  (1311264665 / (4.3 x 10^9)) ≈ 30.4% (approximately 30%)
+  - 65535 * 65535 = 4.3 x 10^9
+
+- **Example Values**:
+  - **A**: 55555 (Binary: `1101_1001_0000_0011`)
+  - **B**: 23603 (Binary: `0101_1100_0011_0011`)
+
+- **Product**:
+  - A * B = 55555 * 23603 = 1311264665
+
+- **Percentage of Max**:
+  - (1311264665 / (4.3 x 10^9)) ≈ 30.4% (approximately 30%)
 
 ### For 4-Bit Data:
-- **Max Product Value**: 
-  15 * 15 = 225
-- **Quantized Values**: 
-  - **A**:  $${\color{red}1101}$$ 1001_0000_0011 (Quantized value = **13**)
-  - **B**: $${\color{red}0101}$$ 1100_0011_0011 (Quantized value = **5**)
-- **Product**: 
-  13 * 5 = 65
-- **Percentage of Max**: 
-  (65 / 225) ≈ 28.8% (approximately 29%)
+- **Max Product Value**:
+  - 15 * 15 = 225
 
+- **Quantized Values**:
+  - **A**: `1101` (Quantized value = 13)
+  - **B**: `0101` (Quantized value = 5)
 
+- **Product**:
+  - 13 * 5 = 65
 
-
-
+- **Percentage of Max**:
+  - (65 / 225) ≈ 28.9% (approximately 29%)
 
 
 
@@ -120,50 +121,6 @@ Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 1. https://chatgpt.com/
 2.	https://youtu.be/VCuyO7Chvc8?si=j08shJ8WrL5gbNtt
 3.	https://images.app.goo.gl/42Hqv37epNisBSMo7
-
-
-
-
-# Comparison of 16-Bit and 4-Bit Data Multiplication
-
-## 16-Bit Data
-
-- **Max Product Value**: 
-  - 65535 * 65535 = 4.3 x 10^9
-
-- **Example Values**:
-  - **A**: 55555 (Binary: `1101_1001_0000_0011`)
-  - **B**: 23603 (Binary: `0101_1100_0011_0011`)
-
-- **Product**:
-  - A * B = 55555 * 23603 = 1311264665
-
-- **Percentage of Max**:
-  - (1311264665 / (4.3 x 10^9)) ≈ 30.4% (approximately 30%)
-
----
-
-## 4-Bit Data
-
-- **Max Product Value**:
-  - 15 * 15 = 225
-
-- **Quantized Values**:
-  - **A**: `1101` (Quantized value = 13)
-  - **B**: `0101` (Quantized value = 5)
-
-- **Product**:
-  - 13 * 5 = 65
-
-- **Percentage of Max**:
-  - (65 / 225) ≈ 28.9% (approximately 29%)
-
----
-
-## Summary
-
-This comparison illustrates how the product values and their percentages of the maximum achievable product differ significantly between 16-bit and 4-bit quantized data, reflecting the effects of quantization on performance and efficiency.
-
 
 
 
