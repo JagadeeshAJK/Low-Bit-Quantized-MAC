@@ -103,7 +103,12 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 44272    **1010**110011110000  10       13.3%
 
 
-
+## Future work 
+1.**Exploration of Alternative Quantization Schemes:** Research alternative quantization methods, such as stochastic quantization or adaptive quantization, to see if they offer improvements over the current approach.
+2.**Design Modifications:** Implement design modifications, like using different types of adders (e.g., carry-lookahead or carry-save) to improve speed and efficiency.
+3.**Improving Accuracy:** Experiment with different quantization techniques or bit-widths to find the best trade-off between performance and accuracy.
+4.**Dynamic Quantization Techniques:** Explore advanced dynamic quantization methods to adaptively adjust the quantization levels based on input data statistics. This could improve the accuracy of the MAC operation.
+5.**Adaptive Quantization:** Implement an adaptive quantization scheme that adjusts the quantization levels based on input signal characteristics to improve efficiency and accuracy.
 
 ## Contributors
 - Kunal Ghosh
