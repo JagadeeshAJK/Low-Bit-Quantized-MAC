@@ -123,6 +123,58 @@ Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
 
 
+# Comparison of 16-Bit and 4-Bit Data Multiplication
+
+## 16-Bit Data
+
+- **Max Product Value**: 
+  \[
+  65535 \times 65535 = 4.3 \times 10^9
+  \]
+
+- **Example Values**:
+  - **A**: 55555 (Binary: `1101_1001_0000_0011`)
+  - **B**: 23603 (Binary: `0101_1100_0011_0011`)
+
+- **Product**:
+  \[
+  A \times B = 55555 \times 23603 = 1311264665
+  \]
+
+- **Percentage of Max**:
+  \[
+  \left( \frac{1311264665}{4.3 \times 10^9} \right) \approx 30.4\% \quad (\text{approximately } 30\%)
+  \]
+
+---
+
+## 4-Bit Data
+
+- **Max Product Value**:
+  \[
+  15 \times 15 = 225
+  \]
+
+- **Quantized Values**:
+  - **A**: `1101` (Quantized value = 13)
+  - **B**: `0101` (Quantized value = 5)
+
+- **Product**:
+  \[
+  13 \times 5 = 65
+  \]
+
+- **Percentage of Max**:
+  \[
+  \left( \frac{65}{225} \right) \approx 28.9\% \quad (\text{approximately } 29\%)
+  \]
+
+---
+
+## Summary
+
+This comparison illustrates how the product values and their percentages of the maximum achievable product differ significant
+
 
 
 
