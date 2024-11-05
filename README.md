@@ -123,58 +123,46 @@ Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
 
 
+
 # Comparison of 16-Bit and 4-Bit Data Multiplication
 
 ## 16-Bit Data
 
 - **Max Product Value**: 
-  \[
-  65535 \times 65535 = 4.3 \times 10^9
-  \]
+  - 65535 * 65535 = 4.3 x 10^9
 
 - **Example Values**:
   - **A**: 55555 (Binary: `1101_1001_0000_0011`)
   - **B**: 23603 (Binary: `0101_1100_0011_0011`)
 
 - **Product**:
-  \[
-  A \times B = 55555 \times 23603 = 1311264665
-  \]
+  - A * B = 55555 * 23603 = 1311264665
 
 - **Percentage of Max**:
-  \[
-  \left( \frac{1311264665}{4.3 \times 10^9} \right) \approx 30.4\% \quad (\text{approximately } 30\%)
-  \]
+  - (1311264665 / (4.3 x 10^9)) ≈ 30.4% (approximately 30%)
 
 ---
 
 ## 4-Bit Data
 
 - **Max Product Value**:
-  \[
-  15 \times 15 = 225
-  \]
+  - 15 * 15 = 225
 
 - **Quantized Values**:
   - **A**: `1101` (Quantized value = 13)
   - **B**: `0101` (Quantized value = 5)
 
 - **Product**:
-  \[
-  13 \times 5 = 65
-  \]
+  - 13 * 5 = 65
 
 - **Percentage of Max**:
-  \[
-  \left( \frac{65}{225} \right) \approx 28.9\% \quad (\text{approximately } 29\%)
-  \]
+  - (65 / 225) ≈ 28.9% (approximately 29%)
 
 ---
 
 ## Summary
 
-This comparison illustrates how the product values and their percentages of the maximum achievable product differ significant
-
+This comparison illustrates how the product values and their percentages of the maximum achievable product differ significantly between 16-bit and 4-bit quantized data, reflecting the effects of quantization on performance and efficiency.
 
 
 
