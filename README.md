@@ -18,12 +18,16 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
   - **XOR Gate**:
   - **AND Gate**:
   - **OR Gate**:
-- Schematic: ![XOR Gate Schematic](path/to/xor_gate_schematic.png)
+- Schematic:
+- ![XOR Gate Schematic](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/Basic%20gates.jpg)
+
+
 - **Arithmetic Components**
   - **Adder**: 
   - **Multiplier**: Description...
-- Schematic: ![Adder Schematic](path/to/adder_schematic.png)
-
+- Schematic:
+-  ![Adder Schematic](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/4%20%2C%208%20bit%20Adder.jpg)
+![Multipler Schematic](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/4-bit%20Multiplier.jpg)
 
 # Mapping of Quantization Levels
 | Original Range | Quantized Value |
