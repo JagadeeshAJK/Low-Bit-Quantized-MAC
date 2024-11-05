@@ -50,9 +50,7 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 
 
 
-## Overview
-$${\color{red}Red}$$
-<span style="color: red; font-weight: bold;">1001</span>1111
+
 
 This project focuses on the design and analysis of a low-bit quantized Multiply-Accumulate (MAC) circuit. It explores the impact of quantization on data representation and performance, comparing both 16-bit and 4-bit data.
 
@@ -80,15 +78,11 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 - **Percentage of Max**: 
   (65 / 225) ≈ 28.8% (approximately 29%)
 
-## Highlighting the Last Four Significant Bits
 
 
 
 
-## Example of Highlighting Specific Bits
-For the binary number `10011111`, the sequence can be highlighted as follows:
 
-- **Highlighted**: <span style="background-color: yellow; color: black; font-weight: bold;">1001</span>1111
 
 
 
@@ -107,3 +101,24 @@ For the binary number `10011111`, the sequence can be highlighted as follows:
 
 9007     **0010**001100101111  3     9%<br>
 44272    **1010**110011110000  10       13.3%
+
+
+
+
+## Contributors
+- Kunal Ghosh
+## Acknowledgments
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+## Contact Information
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+## References:
+1. https://chatgpt.com/
+2.	https://youtu.be/VCuyO7Chvc8?si=j08shJ8WrL5gbNtt
+3.	https://images.app.goo.gl/42Hqv37epNisBSMo7
+
+
+
+
+
+
+
