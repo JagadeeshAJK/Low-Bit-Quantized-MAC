@@ -84,6 +84,9 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 
 
 
+## Summary
+
+This comparison illustrates how the product values and their percentages of the maximum achievable product differ significantly between 16-bit and 4-bit quantized data, reflecting the effects of quantization on performance and efficiency. <br>**These insights can guide further optimization efforts in low-bit quantized designs, ensuring that they meet the demands of various applications while maintaining accuracy and performance.**
 
 
 
