@@ -70,14 +70,11 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
 ### For 4-Bit Data:
 - **Max Product Value**:
   - 15 * 15 = 225
-
 - **Quantized Values**:
   - **A**: `1101` (Quantized value = 13)
   - **B**: `0101` (Quantized value = 5)
-
 - **Product**:
   - 13 * 5 = 65
-
 - **Percentage of Max**:
   - (65 / 225) ≈ 28.9% (approximately 29%)
 
