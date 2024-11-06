@@ -51,8 +51,9 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 
 
 
-# $${\color{red}a}$$ and $${\color{yellow} # b }$$ Inputs (4-Bit Quantized) & Product AB (8-Bit Output)
-SUM Output (Final Result) 9-bit
+# $${\color{yellow}a}$$ and $${\color{yellow}b}$$ Inputs (4-Bit Quantized) & Product ab (8-Bit Output)
+# $${\color{yellow}c}$$ and $${\color{yellow}d}$$ Inputs (4-Bit Quantized) & Product cd (8-Bit Output)
+# SUM Output (Final Result) 9-bit
 
 
 # Low-Bit Quantized MAC Project Overview <small>(Detailed Simulation Results)</small>
