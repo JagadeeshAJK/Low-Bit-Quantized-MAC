@@ -51,9 +51,9 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 
 
 
-# $${\color{yellow}va}$$ and $${\color{yellow}vb}$$ Inputs (4-Bit Quantized) & Product vab (8-Bit Output)
+# $${\color{yellow}va}$$ and $${\color{yellow}vb}$$ Inputs (4-Bit Quantized) & Product $${\color{yellow}vab}$$ (8-Bit Output)
  ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/input%20and%20product%20of%20AB.jpg)
-# $${\color{yellow}vc}$$ and $${\color{yellow}vd}$$ Inputs (4-Bit Quantized) & Product vcd (8-Bit Output)
+# $${\color{yellow}vc}$$ and $${\color{yellow}vd}$$ Inputs (4-Bit Quantized) & Product $${\color{yellow}vcd}$$ (8-Bit Output)
  ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/inputs%20and%20products%20of%20CD.jpg)
 # Inputs to adder from multipler output $${\color{yellow}(vab}$$ & $${\color{yellow}vcd)}$$
 ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/products%20of%20AB%20and%20CD.jpg)
@@ -91,15 +91,9 @@ This project focuses on the design and analysis of a low-bit quantized Multiply-
   - (65 / 225) ≈ 28.9% (approximately 29%)
 
 
-
-
-
-
-
 ## Summary
 
 This comparison illustrates how the product values and their percentages of the maximum achievable product differ significantly between 16-bit and 4-bit quantized data, reflecting the effects of quantization on performance and efficiency. <br>**These insights can guide further optimization efforts in low-bit quantized designs, ensuring that they meet the demands of various applications while maintaining accuracy and performance.**
-
 
 
 ## Tools used (xschem and ngspice) in Ubuntu 
@@ -149,14 +143,6 @@ cd test_xschem_sky130
 cp /usr/local/share/pdk/sky130B/libs.tech/xschem/xschemrc .
 xschem
 ```
-
-
-
-
-9007     **0010**001100101111  3     9%<br>
-44272    **1010**110011110000  10       13.3%
-
-
 ## Future work 
 1. **Exploration of Alternative Quantization Schemes:** Research alternative quantization methods, such as stochastic quantization or adaptive quantization, to see if they offer improvements over the current approach.<br>
 2. **Design Modifications:** Implement design modifications, like using different types of adders (e.g., carry-lookahead or carry-save) to improve speed and efficiency.<br>
