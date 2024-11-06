@@ -102,7 +102,29 @@ This comparison illustrates how the product values and their percentages of the 
 
 
 
+## Tools used (xschem and ngspice) 
 
+### Installing xschem
+
+#### For Ubuntu
+
+Open your terminal and type the following to install xschem
+```
+
+## clone the source repository into a local ngspice_git directory
+git clone https://git.code.sf.net/p/ngspice/ngspice ngspice_git
+cd ngspice_git
+mkdir release
+./autogen.sh
+cd release
+## by default if no --prefix is provided ngspice will install under /usr/local/{bin,share,man,lib}
+## you can add a --prefix=/home/username to install into your home directory.
+../configure --with-x --enable-xspice --disable-debug --enable-cider --with-readline=yes --enable-openmp --enable-osdi
+## build the program
+make
+## install the program and needed files.
+sudo make install
+```
 
 
 
