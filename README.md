@@ -55,7 +55,7 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
  ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/input%20and%20product%20of%20AB.jpg)
 # $${\color{yellow}vc}$$ and $${\color{yellow}vd}$$ Inputs (4-Bit Quantized) & Product vcd (8-Bit Output)
  ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/inputs%20and%20products%20of%20CD.jpg)
-# Inputs to adder from multipler output $${\color{yellow}(vab & vcd)}$$
+# Inputs to adder from multipler output $${\color{yellow}(vab and vcd)}$$
 ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/products%20of%20AB%20and%20CD.jpg)
 # SUM  $${\color{yellow}vab + vcd}$$ Output (Final Result) 9-bit
  ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/sum%20of%20AB%20and%20CD.jpg)
