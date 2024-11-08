@@ -11,7 +11,7 @@ A low-bit quantized Multiply-Accumulate (MAC) circuit processes reduced-precisio
 
 
 # circuit diagram for Low-Bit-Quantized-MAC
- ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/project.png)
+ ![pro](https://github.com/JagadeeshAJK/Low-Bit-Quantized-MAC/blob/main/pro.png)
 
 ### Building Blocks of the Circuit 
 - **Logic Gates**
